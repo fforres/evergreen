@@ -41,9 +41,12 @@
     "build": "lerna exec --parallel -- babel src -d lib --ignore *.test.js"
   },
   "dependencies": {
+    "evergreen-colors": "^2.2.6",
+    "evergreen-layers": "^2.2.6",
+    "evergreen-typography": "^2.2.6",
     "prop-types": "^15.5.10",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "ui-box": "^0.4.0"
+    "ui-box": "^0.4.1"
   }
 }
